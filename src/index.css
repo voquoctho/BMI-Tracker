@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  background-color: #182A4E;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.BMI-Cal h1{
+  margin: 50px 0;
+  color: #FFF;
+  text-align: center;
+}
+.BMI-Cal .Form {
+  text-align: center;
+  
+}
+.BMI-Cal .Form button{
+      display: inline-block;
+      margin-top: 30px;
+      margin-right: 48px;
+      padding: 10px 20px;
+      border: 0,5px solid;
+      border-radius: 21px;
+
+}
+.BMI-Cal .Form form{
+  display: flex;
+  width: 620px;
+  flex-wrap: wrap;
+  
+}
+.BMI-Cal .Form form .mb-3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+}
+.BMI-Cal .Form form .mb-3 label{
+  color: #FFF;
+}
+.BMI-Cal .Form form .mb-3 input{
+  padding: 10px 50px;
+  border: 0.5px solid;
+  border-radius: 20px;
+}
+
+.BMI-Cal .Result {
+  margin-top: 40px;
+  
+}
+
+.BMI-Cal .Result h3 {
+  color: #FFF;
+  
+}
